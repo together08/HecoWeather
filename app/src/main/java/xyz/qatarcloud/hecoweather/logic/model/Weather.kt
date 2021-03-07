@@ -1,3 +1,3 @@
-package com.sunnyweather.android.logic.model
+package xyz.qatarcloud.hecoweather.logic.model
 
 data class Weather(val realtime: RealtimeResponse.Realtime, val daily: DailyResponse.Daily)
