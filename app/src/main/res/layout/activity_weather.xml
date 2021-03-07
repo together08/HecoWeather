@@ -29,7 +29,17 @@
 
                 <include layout="@layout/life_index" />
 
+                <TextView
+                    android:id="@+id/apiInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="由彩云天气 API 提供支持"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"/>
+
             </LinearLayout>
+
 
         </ScrollView>
 
